@@ -1,0 +1,63 @@
+
+h1 {
+
+    margin-left: 2%;
+    margin-right: 2%; 
+  
+}
+
+.p1{
+
+    max-width: 1200px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.podaci {
+    display:inline-block;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 370px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.cent2{
+    display:inline-block;
+    text-align: justify;
+    
+}
+
+/*ul li{
+
+    text-align:justify;
+
+}*/
+
+.centar{
+    padding-top: 20px;
+    text-align: center;
+    border: 10px;
+}
+
+.imeP {
+   float:right;  
+}
+
+.kt {
+    float:right;  
+ }
+.pbr{
+    float: right;
+}
+ .ul {
+    float:right;  
+ }
+
+ .email {
+    float:right;  
+ }
+
+.jmbg{
+    float:right;  
+ }
+ 

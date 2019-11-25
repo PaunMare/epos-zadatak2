@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/uslgestyle.css">
+    <link rel="icon" href="./images/logo.png">
+    <script defer src="./js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+   
+        <header>
+                <div class="container">
+                    <div id="branding">
+                        <h1><span class="highlight">PAUN TRANSPORT</span></h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li ><a href="index.html">Početna</a></li>
+                            <li><a href="galerija.html">Galerija</a></li>
+                            <li class="current"><a href="index2.html">Usluge</a></li>
+                            <li><a href="onama.html">O nama</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+    
+    <h1>Usluge</h1>
+
+    <div class = "p1"><p>
+         Usluge kurirske službe <i>Paun Transport</i> uključuju transport dokumenata "DAN ZA DAN", transport robe "DANAS ZA SUTRA", teške robe "NAREDNI MESEC" i "MEĐUNARODNI TRANSPORT" za dostavu robe na područiju Balkana i Evrope, sa fleksibilnim vremenom dostave.
+
+    </p></div>
+    <div class = "p1"> <p>
+        Uz svaku od ovih usluga naš korisnik može zahtevati i niz dodatnih usluga koje mu možemo pružiti uz visoki nivo kvaliteta i minimalne troškove:
+        <ul>
+            <li>Povrat potpisanih otpremnica i pisama</li>
+            <li>Pošiljke sa plaćenim odgovorom</li>
+            <li>Pošiljke sa otkupninom (pouzećem)</li>
+          </ul>
+    </p></div>
+    <div class="centar">
+        <h1><b>NOVA PORUDŽBINA</b></h1>
+    <p>
+        <div id="error"></div>
+        <form action="/" id="form" method="GET">
+            <p><i>Lični podaci</i></p>
+
+        <div class="podaci">
+            Ime i prezime*  <div class="imeP">   <input type="text" id="name" name="fname">   </div> <br>
+            Kontakt telefon*    <div class="kt">   <input type="number" id="telefon" name="ffon">    </div>  <br>
+            JMBG*   <div class="jmbg">    <input type="number" id="jmbg" name="fjmbg"></div>  <br>
+            Ulica*  <div class="ul"> <input type="text" id="ulica" name="fulica"></div>  <br>
+            Poštanski broj* <div class="pbr">   <input type="number" id="postanski" name="fposta">   </div>  <br>
+            email adresa    <div class="email"><input type="text" name="femail">   </div>  <br>
+            <p>   *<i>obavezna polja</i></p>
+        </div>
+            <p><i>Način dostave</i></p>
+        <div class="cent2">
+           <ul> <li>Na adresu <input type="radio" name="fadresa" value="adresa"></li> 
+            <li>Poštom<input type="radio" name="fadresa" value="posta"></li> 
+            <li>Plaćanje karticom <input type="checkbox" name="fkartica" value="Bike"> </li>
+            </ul>
+        </div>
+        <p><i>Dostupne pošte</i></p>
+        <select>
+            <option value="Beograd">Beograd</option>
+            <option value="Nis">Niš</option>
+            <option value="Kragujevac">Kragujevac</option>
+            <option value="krlanjevo">Kraljevo</option>
+            <option value="ns">Novi Sad</option>
+            <option value="subo">Subotica</option>
+            <option value="krusevac">Kruševac</option>
+            <option value="bobo">Bobovo</option>
+
+          </select>
+          <p><i>Vsta usluge</i></p>
+          <select>
+                <option value="Beograd">Dan za dan</option>
+                <option value="Nis">Danas za sutra</option>
+                <option value="Kragujevac">Međunarodni transport</option>
+                <option value="Kragujevac"> Diskretan transport intravenoznih narkotika i propratne opreme</option>
+    
+              </select>
+              <button type="submit">Submit</button>
+          </form>
+    </p>
+    </div>
+    <footer>
+            <p>Paun transport, Copyright &copy; 2019</p>
+            <p>Datum: <span id="datetime"></span></p>
+    <script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML=dt.toLocaleDateString();</script>
+    </footer>
+</body>
+</html>

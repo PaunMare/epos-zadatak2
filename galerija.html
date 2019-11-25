@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/galerijastyle.css">
+    <link rel="icon" href="./images/logo.png">
+    <title>Galerija</title>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+        <header>
+                <div class="container">
+                    <div id="branding">
+                        <h1><span class="highlight">PAUN TRANSPORT</span></h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Početna</a></li>
+                            <li class="current"><a href="galerija.html">Galerija</a></li>
+                            <li><a href="index2.html">Usluge</a></li>
+                            <li><a href="onama.html">O nama</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+    
+        <h1>Niz aleju uspomena</h1>
+        <div class="tekst2">
+                
+                <p>Poznato je da je Paun™ jedna od najpouzdanijih transportnih kompanija na
+                        svetskom tržištu, koji nudi svoje usluge svima, bez diskriminacije. U
+                        širok raspon usluga, kontinualno razvijanim, ulaze i dostava do
+                        najudaljenijih krajeva plave planete + Koralovo, najpouzdanijim
+                        medijumima prikazanim dole. </p>
+        </div> 
+
+    <div class="container-container1">
+            <div class="tekst">
+                    <p>Predstavljamo vam slike naseg poslovnog sveta koje su profesionalni fotografi <br>
+                         uslikali jednom prilikom za proslavu sedmogodišnjice kompanije </p>
+            </div>
+    <div class="container1">
+      <div class="slider-outer">
+        <img src="images/arrow-left.png" class="prev" alt="Prev">
+        <div class="slider-inner">
+          <img src="images/image.jpg" class="active">
+          <img src="images/image2.jpg">
+          <img src="images/image3.jpg">
+          <img src="images/image4.jpg">
+          <img src="images/image6.jpg">
+          <img src="images/image7.png">
+          <img src="images/image8.jpg">
+          <img src="images/image10.jpg">
+          <img src="images/image11.jpg">
+          <img src="images/image12.png">
+          <img src="images/image14.jpg">
+          <img src="images/image15.jpg">
+          <img src="images/image16.jpg">
+          <img src="images/image17.jpg">
+          <img src="images/image18.png">
+        </div>
+        <img src="images/arrow-right.png" class="next" alt="Next">
+      </div>
+    </div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item"><img src="images/image.jpg"></div>
+        <div class="grid-item"><img src="images/image2.jpg"></div>
+        <div class="grid-item"><img src="images/image3.jpg"></div>
+        <div class="grid-item"><img src="images/image4.jpg"></div>
+        <div class="grid-item"><img src="images/image6.jpg"></div>
+        <div class="grid-item"><img src="images/image7.png"></div>
+        <div class="grid-item"><img src="images/image8.jpg"></div>
+        <div class="grid-item"><img src="images/image10.jpg"></div>
+        <div class="grid-item"><img src="images/image11.jpg"></div>
+        <div class="grid-item"><img src="images/image12.png"></div>
+        <div class="grid-item"><img src="images/image14.jpg"></div>
+        <div class="grid-item"><img src="images/image15.jpg"></div>
+        <div class="grid-item"><img src="images/image16.jpg"></div>
+        <div class="grid-item"><img src="images/image17.jpg"></div>
+        <div class="grid-item"><img src="images/image18.png"></div>
+       
+        
+    </div>
+    <footer>
+            <p>Paun transport, Copyright &copy; 2019</p>
+            <p>Datum: <span id="datetime"></span></p>
+        <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML=dt.toLocaleDateString();</script>
+        </footer>
+  </body>
+</html>
